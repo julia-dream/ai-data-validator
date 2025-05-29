@@ -26,15 +26,7 @@ Start with this basic template that you can adapt to your language of choice: (E
   - Use Cursor’s AI to help you write type-safe validator functions for primitive types (e.g., string, number, boolean).
   - Extend your library to support complex types such as arrays and objects.
   - Ensure your validators follow your language’s best practices and type system.
-3. Design a Composition System
-  - Build functions to combine validators (e.g., and, or, optional).
-  - Use Cursor’s AI to suggest and implement composable patterns for complex data structures.
-  - Maintain type information throughout your composition system.
-4. Create a Schema Builder API
-  - Implement an intuitive API for defining validation schemas.
-  - Introduce a Result type or similar construct to handle validation outcomes.
-  - Use Cursor’s AI to generate clean, readable interfaces for schema definition and validation rules.
-5. Leverage AI for Documentation and Refactoring
+3. Leverage AI for Documentation and Refactoring
   - Use Cursor’s AI to generate inline documentation and usage examples.
   - Refactor your code with AI suggestions to ensure clarity, maintainability, and adherence to your style guide.
 
@@ -42,8 +34,6 @@ Start with this basic template that you can adapt to your language of choice: (E
 
 - Build Your Solution in Cursor IDE
   - Develop your validation library using Cursor’s AI-powered code generation and refactoring tools. Take advantage of AI suggestions to optimize your implementation and maintain type safety.
-- Demonstrate Complex Validation 
-  - Create example schemas and validators that handle nested and complex data structures. Use Cursor’s AI to help generate and validate these examples.
 - Test with Diverse Data Patterns
   - Write comprehensive test cases covering valid and invalid data scenarios. Use Cursor’s AI to generate and expand your test suite, ensuring robust validation coverage.
 
@@ -51,12 +41,10 @@ Start with this basic template that you can adapt to your language of choice: (E
 
 1. **Validation Library Implementation**  
    - Complete, type-safe validator functions for primitive and complex types  
-   - Composition functions for combining validators  
    - Schema builder API and result handling logic
 
 2. **Documentation**  
-   - Clear instructions on how to use your validator library  
-   - Examples of creating and composing custom validators  
+   - Clear instructions on how to use your validator library   
    - Guidance on schema validation and result interpretation  
    - All documentation generated or refined with Cursor’s AI tools
 
