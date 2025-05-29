@@ -23,10 +23,6 @@ class Schema {
   static array<T>(itemValidator: Validator<T>): ArrayValidator<T> {
     return new ArrayValidator<T>(itemValidator);
   }
-  
-  static union<T, U>(first: Validator<T>, second: Validator<U>): UnionValidator<T, U> {
-    return new UnionValidator<T, U>(first, second);
-  }
 }
 
 // Define a complex schema
